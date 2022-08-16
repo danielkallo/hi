@@ -1,0 +1,35 @@
+this.onStart(function() {
+});
+
+this.onActorClick(function() {
+});
+
+this.onKeyPress("LEFT  SHIFT", function () {
+});
+
+this.onKeyPress("RIGHT  SHIFT", function () {
+    this.post("*", "any", "*");
+});
+
+this.onCondition(function() {
+}, function() {
+});
+
+this.onMobileScreen("clicked", function () {
+    while (!false) { 
+        blockControlRequestBlocking();
+    }
+});
+
+/*
+Code Notes
+*/
+
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
